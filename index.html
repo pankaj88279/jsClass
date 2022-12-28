@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+    </head>
+    <body>
+        <script>
+          class MyClassA{//class should be PasCalCash
+                //1.member
+
+                //2.member
+
+                //3.method
+
+             
+                addition(x,y){//formal arugument
+                    return(x+y);
+                }
+               
+                
+              }
+                let obj1=new MyClassA();
+                 obj1.addition(12,10)
+                 console.log(obj1.addition(12,10))
+
+            class MyClassB{
+                // 1.member
+
+                //2.member
+
+                //3.method
+                subtractions(x,y){//actual argument
+                  return(x-y)
+                }
+            }
+            var obj2=new MyClassB();
+            var resultb=obj2.subtractions(10,5)
+            console.log(resultb)
+
+            class MyClassC{
+                //1.member
+                //2.member
+                //3.method
+                division(x,y){
+                    return(x/y);
+                }
+            }
+            let obj3=new MyClassC();
+            let resultc=obj3.division(20,5)
+            console.log(resultc)
+
+            class MyClassD{
+                    //1.member
+
+                    // 2.member
+
+                    // 3.method
+                multiple(x,y){
+                        return x*y;
+                }
+            }
+            let obj4=new MyClassD();
+            let resultd=obj4.multiple(30,4)
+            console.log(resultd);
+             class MyClassE{
+                //1.member
+
+                //2.member
+
+                //3.method
+                student(name,year){
+                    return "hello "+name;
+                    
+                }
+                age(year){
+                    let a = 25;
+                    return a;
+                }
+
+             }
+            let ob1=new MyClassE();
+            let resultb1= ob1.age(25)
+            
+            console.log(resultb1);
+            let obj5=new MyClassE();
+            let resulte=obj5.student('Pankaj'+ " "+resultb1);
+         
+             console.log(resulte);
+
+             class MyClassf extends MyClassE{
+
+                student1(name){
+                    return name
+                }
+
+             }
+             let obj6=new MyClassf();
+             obj6.student1('priyansh');
+             let resultf= obj6.student1('priyansh');
+            console.log(resultf)
+            console.log(obj6.student('Pankaj'+ " "+resultb1+" "+resulte))
+            console.log(obj6.age(25));
+        </script>
+        
+    </body>
+</html>
